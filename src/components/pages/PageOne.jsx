@@ -6,6 +6,8 @@ import TextDisplay from "../atom/TextDisplay";
 import GridLima from "../molecules/GridLima.jsx";
 import TextCenter from "../molecules/TextCenter.jsx";
 import GridEmpat from "../molecules/GridEmpat.jsx";
+import ButtonNext from "../atom/ButtonNext.jsx";
+import DotNavigation from "../layout/DotNavigation.jsx";
 
 export default function PageOne() {
   let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -44,6 +46,8 @@ export default function PageOne() {
 
   return (
     <Container>
+      <DotNavigation />
+
       <BorderDisplay>
         <GridLima>
           {Array.from({ length: lastNumber }).map((_, index) => (
@@ -70,6 +74,8 @@ export default function PageOne() {
           />
         ))}
       </GridEmpat>
+      {isDone ? <ButtonNext text="Next" link="/student/lesson/2"/> : "" }
+
     </Container>
   );
 }

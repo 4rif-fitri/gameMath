@@ -7,6 +7,8 @@ import Login from "./components/pages/Login.jsx";
 import Student from './student/Student.jsx';
 import LesseonManu from './student/LesseonManu.jsx';
 import Lesson from './student/Lesson.jsx';
+import PageOne from "./components/pages/PageOne.jsx";
+import PageTwo from "./components/pages/PageTwo.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -18,7 +20,9 @@ createRoot(document.getElementById("root")).render(
         <Route path="/student" element={<Layout />}>
           <Route index element={<Student />} />
           <Route path="lesson" element={<LesseonManu />} />
-          <Route path="lesson/1" element={<Lesson />} />
+
+          <Route path="lesson/1" element={<PageOne />} />
+          <Route path="lesson/2" element={<PageTwo />} />
         </Route>
       </Routes>
     </BrowserRouter>
