@@ -1,5 +1,5 @@
 import {Outlet} from "react-router";
-import ButtonBack from "./components/atom/LinkerBack.jsx";
+import ButtonBack from "../atom/LinkerBack.jsx";
 
 export default function Layout() {
     return (

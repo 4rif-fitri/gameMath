@@ -2,8 +2,8 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import { BrowserRouter, Route, Routes } from "react-router";
-import Layout from "./Layout.jsx";
-import Login from "./Login.jsx";
+import Layout from "./components/layout/Layout.jsx";
+import Login from "./components/pages/Login.jsx";
 import Student from './student/Student.jsx';
 import LesseonManu from './student/LesseonManu.jsx';
 import Lesson from './student/Lesson.jsx';

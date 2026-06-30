@@ -1,6 +1,6 @@
-import Linker from "../components/Linker";
-import LinkerBack from "../components/LinkerBack";
-import { LinkerContainer } from "../components/LinkerContainer";
+import Linker from "../components/atom/Linker.jsx";
+import LinkerBack from "../components/atom/LinkerBack.jsx";
+import { LinkerContainer } from "../components/molecules/LinkerContainer.jsx";
 
 export default function LesseonManu() {
   return (
