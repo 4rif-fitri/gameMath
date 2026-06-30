@@ -1,5 +1,5 @@
-import Linker from "./components/Linker.jsx";
-import { LinkerContainer } from "./components/LinkerContainer.jsx";
+import Linker from "../atom/Linker.jsx";
+import { LinkerContainer } from "../molecules/LinkerContainer.jsx";
 
 export default function Login () {
     return (
