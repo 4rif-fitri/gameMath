@@ -6,7 +6,6 @@ import Layout from "./components/layout/Layout.jsx";
 import Login from "./components/pages/Login.jsx";
 import Student from './student/Student.jsx';
 import LesseonManu from './student/LesseonManu.jsx';
-import Lesson from './student/Lesson.jsx';
 import PageOne from "./components/pages/PageOne.jsx";
 import PageTwo from "./components/pages/PageTwo.jsx";
 
